@@ -31,7 +31,7 @@ This could be the most easy example of TinyML's usage, supposing that you just n
 
 If you want to implement it to express by yourself, you can use the `__express` method <a href="https://expressjs.com/es/4x/api.html#app.engine">as you can see on this example</a>.
 
-If you just need to get the generated HTML source code, you can use the `translate` function directly, the API documentation should be right down.
+If you just need to get the generated HTML source code, you can use the `translate` method directly, the API documentation should be right down.
 
 ## API doc
 
