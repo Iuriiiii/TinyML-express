@@ -27,6 +27,13 @@ function toHTML(obj)
     return `${source}</${obj.tag}>`;
 }
 
+/**
+ * Traduces TinyML's source code to HTML's source code.
+ * 
+ * @param {String} source 
+ * @param {Object} properties 
+ * @returns 
+ */
 function translate(source, properties = {})
 {
     let compiledTML = compile(source, properties);
@@ -39,6 +46,13 @@ function translate(source, properties = {})
     }, '');
 }
 
+/**
+ * The TinyML-express engine.
+ * 
+ * @param {String} path 
+ * @param {Object} options 
+ * @param {Function} callback 
+ */
 function __express(path, options, callback)
 {
     fs.readFile(path, (err, content) =>
@@ -46,13 +60,19 @@ function __express(path, options, callback)
         if(err)
             return callback(new Error(err));
 
-        
         return callback(null, translate(content.toString(), options));
     });
 }
 
 const express  = require('express');
 
+/**
+ * Register the TinyML-express engine on express.
+ * 
+ * @param {Express} app 
+ * @param {String|Array} path 
+ * @returns {Boolean}
+ */
 function useTinyML(app, path = 'views')
 {
     if(!app instanceof express)
