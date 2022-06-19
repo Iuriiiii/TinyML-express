@@ -41,9 +41,11 @@ This method is a simple utility that will make your life easlier, its job is reg
 It has two parameters.
 
 1. The app express object.
-2. The views directory.
+2. The views directory, by default `views`.
 
 Returns a boolean.
+
+The TinyML's format is `timl`. 
 
 ### `__express`
 
