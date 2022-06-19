@@ -1,0 +1,15 @@
+html{
+    head{
+        title{%title%}
+
+        style{!
+            h3{
+                background-color: red;
+            }
+        !}
+    }
+    body{
+        h3{Hola Mundo}
+        p{Este es un parrafo}
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tinyml-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tinyml-core": "github:Iuriiiii/TinyML-core"
+  },
+  "devDependencies": {
+    "express": "^4.18.1",
+    "npm-check-updates": "^14.0.1"
+  }
+}
