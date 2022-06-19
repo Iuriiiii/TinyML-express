@@ -13,7 +13,6 @@ The TinyML-express module will return an object with three util functions 4u. Yo
     const tinyML = require('tinyml-express');
 
 
-
 This could be the most easy example of TinyML's usage, supposing that you just need the TinyML-express's render engine.
 
     const { useTinyML } = require('tinyml-express');
@@ -49,12 +48,3 @@ Returns a boolean.
 ### `__express`
 
 Is the TinyML engine for expresss. Its operation and syntax is the same as whichever express engine.
-
-### `translate`
-
-Is the hearth of the module, translates the TinyML syntax to the HTML syntax to get rendered by the browser.
-
-It has two parameters.
-
-1. The TinyML's source code.
-2. The properties to get catched by TinyML.
