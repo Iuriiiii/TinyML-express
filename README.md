@@ -1,6 +1,6 @@
 # TinyML - Express
 
-Here is the <a href="https://github.com/Iuriiiii/TinyML-core">TinyML</a> engine for <a href="https://expressjs.com/">Express</a>.
+Here is the <a href="https://github.com/Iuriiiii/TinyML-core" target="_blank">TinyML</a> engine for <a href="https://expressjs.com/" target="_blank">Express</a>.
 
 ## Installation
 
@@ -29,7 +29,7 @@ This could be the most easy example of TinyML's usage, supposing that you just n
         console.log('server started')
     });
 
-If you want to implement the engine to express by yourself, you can use the `__express` method <a href="https://expressjs.com/es/4x/api.html#app.engine">as you can see on this example</a>.
+If you want to implement the engine to express by yourself, you can use the `__express` method <a href="https://expressjs.com/es/4x/api.html#app.engine" target="_blank">as you can see on this example</a>.
 
 ## API doc
 
